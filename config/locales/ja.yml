@@ -215,6 +215,7 @@ ja:
       cannot_delete_the_leader: 'リーダーは削除できません。'
       cannot_delete_only_a_member: 'このユーザーはこのチームにしか所属していないため、削除できません。'
       delete_member: 'メンバーを削除しました。'
+      change_owner: '権限移動しました。'
       cannot_delete_member_4_some_reason: 'なんらかの原因で、削除できませんでした。'
       failed_to_post: '投稿できませんでした...'
       create_team: 'チーム作成に成功しました！'
@@ -259,6 +260,7 @@ ja:
       delete: '削除'
       create: '作成'
       invite: '招待'
+      change_owner: '権限移動'
     top:
       line1: 'このアプリケーションは、チームごと、議題ごとに別れて'
       line2: '特定のイシュー（議題）をメンバーで見やすく共有するためのアプリケーションです'
