@@ -1,7 +1,7 @@
 class AssignsController < ApplicationController
   before_action :authenticate_user!
   before_action :email_exist?, only: [:create]
-  before_action :user_exist?, only: [:create]
+  # before_action :user_exist?, only: [:create]
 
   def create
     team = find_team(params[:team_id])
@@ -22,6 +22,7 @@ class AssignsController < ApplicationController
   end
 
   private
+
   def assign_params
     params[:email]
   end
