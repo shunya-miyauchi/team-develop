@@ -48,8 +48,10 @@
                       <% else %>
                         <td></td>
                       <% end %>
-                      <% if current_user == @team.owner %>
+                      <% if current_user == @team.owner && assign.user != @team.owner %>
                         <td><%= link_to I18n.t('views.button.change_owner'), change_owner_team_path(@team, assign_id: assign.id),method: :patch,class: 'btn btn-sm btn-danger' %></td>
+                      <% else %>
+                        <td></td>
                       <% end %>
                     </tr>
                   <% end %>
