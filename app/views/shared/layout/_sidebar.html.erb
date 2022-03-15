@@ -35,6 +35,7 @@
               <p>
                 <%= agenda.title %>
                 <i class="right fa fa-angle-left"></i>
+                <object><%= link_to "削除",agenda_path(agenda.id),method: :delete,style: "color:red",class: "btn btn-outline-danger btn-sm" %></object>
               </p>
             </a>
             <ul class="nav nav-treeview" style="display: block;">
